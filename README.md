@@ -2,7 +2,7 @@
 
 This repository contains code developed for automating diagnostics in spinal cord injuries by leveraging computer vision and machine learning. Through integrated computer vision algorithms, this project enables the detection of relevant features in ultrasound images, supporting continuous evaluation of clinical metrics and aiding radiologists in patient monitoring and diagnostics.
 
-## 📜 Project Overview
+## 💡 Project Overview
 
 Traditional approaches to spinal cord injury diagnostics rely on infrequent imaging sessions, which limit real-time insights into a patient’s recovery and condition. By using ultrasound imaging combined with wearable technology, this project enables continuous and automated tracking of spinal cord health, capturing key metrics such as swelling, inflammation, and injury development.
 
@@ -21,11 +21,11 @@ After training, the models can be used for:
   
 ## 📂 Repository Structure
 
-- 📁 **`DataScaling`**: Contains scripts to preprocess and scale ultrasound B-Mode Sagittal images for consistent input across models.
+- **`DataScaling`**: Contains scripts to preprocess and scale ultrasound B-Mode Sagittal images for consistent input across models.
   
-- 📁 **`HematomaDetection`**: Contains code for training object detection models to localize hematomas in spinal cord images, enabling automated injury detection.
+- **`HematomaDetection`**: Contains code for training object detection models to localize hematomas in spinal cord images, enabling automated injury detection.
 
-- 📁 **`Segmentation`**: Contains code for training semantic segmentation models focused on segmenting soft tissue within spinal cord ultrasound images.
+- **`Segmentation`**: Contains code for training semantic segmentation models focused on segmenting soft tissue within spinal cord ultrasound images.
 
 ## 🗂 Dataset
 
@@ -35,10 +35,6 @@ The project relies on a custom dataset with over 10,000 spinal cord ultrasound i
 
 - 🔹 **Object Detection**: Models trained to detect hematomas and localize injury sites.
 - 🔹 **Semantic Segmentation**: Models fine-tuned to segment spinal cord anatomy over multiple cardiac cycles, providing detailed insights into structural and pathological changes.
-
-## 🎥 Sample Results
-
-In the video below, a fine-tuned TransUNet model demonstrates its capabilities by segmenting spinal cord anatomy over several cardiac cycles, highlighting the effectiveness of continuous monitoring.
 
 ## 🚀 Getting Started
 
