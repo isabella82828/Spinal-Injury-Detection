@@ -6,7 +6,12 @@ This repository contains code developed for automating diagnostics in spinal cor
 
 Traditional approaches to spinal cord injury diagnostics rely on infrequent imaging sessions, which limit real-time insights into a patient’s recovery and condition. By using ultrasound imaging combined with wearable technology, this project enables continuous and automated tracking of spinal cord health, capturing key metrics such as swelling, inflammation, and injury development.
 
-Our dataset, comprising over 10,000 spinal cord images (both injured and non-injured), was developed to train and evaluate machine learning models specifically for injury localization and automatic segmentation. With tools like fine-tuned TransUNet, clinicians can visualize soft tissue segmentation and spinal anatomy changes over time, making it possible to observe developments in real-time and reduce the workload for radiologists.
+The dataset, comprising over 10,000 spinal cord images (both injured and non-injured), was developed to train and evaluate machine learning models specifically for injury localization and automatic segmentation. With tools like fine-tuned TransUNet, clinicians can visualize soft tissue segmentation and spinal anatomy changes over time, making it possible to observe developments in real-time and reduce the workload for radiologists.
+
+After training, the models can be used for: 
+
+- 📍 Injury Localization: Detect specific injuries within the spinal cord.
+- 🧬 Soft Tissue Segmentation: Analyze anatomical features and track injury progression.
 
 ## ✨ Key Features
 
@@ -43,7 +48,7 @@ In the video below, a fine-tuned TransUNet model demonstrates its capabilities b
    cd Spine-Injury-Detection
 
 2. **Set Up the Environment**:
-   ``pip install -r requirements.txt
+   ```pip install -r requirements.txt
 
 3. **Data Preprocessing**
    Run data scaling scripts to scale and prepare data
