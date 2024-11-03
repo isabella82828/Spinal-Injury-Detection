@@ -52,8 +52,8 @@ In the video below, a fine-tuned TransUNet model demonstrates its capabilities b
    pip install -r requirements.txt
 
 3. **Data Preprocessing**:
-   Run data scaling scripts to scale and prepare data
+- Run data scaling scripts to scale and prepare data
 
 4. **Train Model**
-   - For object detection, navigate to the HematomaDetection directory and follow the instructions to train the hematoma localization models.
-   - For segmentation, use the scripts in the Segmentation directory to train models for soft tissue segmentation.
+- For object detection, navigate to the HematomaDetection directory and follow the instructions to train the hematoma localization models.
+- For segmentation, use the scripts in the Segmentation directory to train models for soft tissue segmentation.
