@@ -49,7 +49,7 @@ In the video below, a fine-tuned TransUNet model demonstrates its capabilities b
 
 2. **Set Up the Environment**:
   ```bash
-  pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. **Data Preprocessing**
    Run data scaling scripts to scale and prepare data
