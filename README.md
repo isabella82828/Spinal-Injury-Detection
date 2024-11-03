@@ -42,16 +42,16 @@ In the video below, a fine-tuned TransUNet model demonstrates its capabilities b
 
 ## 🚀 Getting Started
 
-1. **Clone the Repository**:
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/isabella82828/Spine-Injury-Detection.git
    cd Spine-Injury-Detection
 
-2. **Set Up the Environment**:
-  ```bash
+2. **Set Up the Environment**
+   ```bash
    pip install -r requirements.txt
 
-3. **Data Preprocessing**
+3. **Data Preprocessing**:
    Run data scaling scripts to scale and prepare data
 
 4. **Train Model**
