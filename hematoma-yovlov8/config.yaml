@@ -1,0 +1,8 @@
+path: D:/PreAndPostInjuryYolo/custom_data_prepost
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+names:
+  0: hematoma
