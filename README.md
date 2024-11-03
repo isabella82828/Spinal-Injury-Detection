@@ -2,7 +2,7 @@
 
 This repository contains code developed for automating diagnostics in spinal cord injuries by leveraging computer vision and machine learning. Through integrated computer vision algorithms, this project enables the detection of relevant features in ultrasound images, supporting continuous evaluation of clinical metrics and aiding radiologists in patient monitoring and diagnostics.
 
-## 💡 Project Overview
+## Project Overview
 
 Traditional approaches to spinal cord injury diagnostics rely on infrequent imaging sessions, which limit real-time insights into a patient’s recovery and condition. By using ultrasound imaging combined with wearable technology, this project enables continuous and automated tracking of spinal cord health, capturing key metrics such as swelling, inflammation, and injury development.
 
@@ -13,13 +13,13 @@ After training, the models can be used for:
 - 📍 Injury Localization: Detect specific injuries within the spinal cord.
 - 🧬 Soft Tissue Segmentation: Analyze anatomical features and track injury progression.
 
-## ✨ Key Features
+## Key Features
 
 - 🔍 **Object Detection**: Localizes injuries (e.g., hematomas) in ultrasound images, aiding in diagnosis and clinical assessment.
 - 🧩 **Semantic Segmentation**: Enables soft tissue segmentation within spinal cord ultrasound images to track anatomical changes.
 - 📈 **Continuous Monitoring**: Facilitates ongoing assessment of patient health trajectory post-surgery, providing clinicians with actionable insights.
   
-## 📂 Repository Structure
+##Repository Structure
 
 - **`DataScaling`**: Contains scripts to preprocess and scale ultrasound B-Mode Sagittal images for consistent input across models.
   
@@ -27,16 +27,16 @@ After training, the models can be used for:
 
 - **`Segmentation`**: Contains code for training semantic segmentation models focused on segmenting soft tissue within spinal cord ultrasound images.
 
-## 🗂 Dataset
+## Dataset
 
 The project relies on a custom dataset with over 10,000 spinal cord ultrasound images. The images are annotated for both injury localization and segmentation tasks, supporting the training and evaluation of machine learning models.
 
-## 🧑‍🏫 Model Training
+## Model Training
 
 - 🔹 **Object Detection**: Models trained to detect hematomas and localize injury sites.
 - 🔹 **Semantic Segmentation**: Models fine-tuned to segment spinal cord anatomy over multiple cardiac cycles, providing detailed insights into structural and pathological changes.
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the Repository**
    ```bash
