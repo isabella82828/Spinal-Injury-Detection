@@ -1,6 +1,6 @@
-# 🧠 Spine Injury Detection and Segmentation in Ultrasound Images
+# 🧠 Spinal Injury Detection and Segmentation in Ultrasound Images
 
-This repository contains code developed for automating diagnostics in spinal cord injuries by leveraging computer vision and machine learning. Through integrated computer vision algorithms, this project enables the detection of relevant features in ultrasound images, supporting continuous evaluation of clinical metrics and aiding radiologists in patient monitoring and diagnostics.
+This project automates diagnostics in spinal cord injuries by leveraging computer vision and machine learning. Through integrated computer vision algorithms, this project enables the detection of relevant features in ultrasound images, supporting continuous evaluation of clinical metrics and aiding radiologists in patient monitoring and diagnostics.
 
 ## Project Overview
 
@@ -53,3 +53,12 @@ The project relies on a custom dataset with over 10,000 spinal cord ultrasound i
 4. **Train Model**
 - For object detection, navigate to the HematomaDetection directory and follow the instructions to train the hematoma localization models.
 - For segmentation, use the scripts in the Segmentation directory to train models for soft tissue segmentation.
+
+## Conclusions 
+This project demonstrates the promising potential of deep learning models for automating diagnostics in spinal cord injury using ultrasound imaging. Key quantitative findings include:
+
+- __Injury Localization__: The YOLOv8 model outperformed other object detection models, achieving a mean Average Precision (mAP50-95) score of 0.606 and an Average Recall (AR) of 0.644.
+- __Semantic Segmentation__: The DeepLabv3 model had the highest segmentation accuracy on porcine spinal cord images, with a Mean Dice score of 0.587. For human spinal cord images, the SAMed model performed best, achieving a Mean Dice score of 0.445.
+- __Implantability Scores__: Both YOLOv8 and DeepLabv3 showed the highest potential for deployment in wearable or implantable devices, making them suitable for continuous monitoring of patient health.
+
+These findings suggest that deep learning can be effectively used to track and monitor post-surgical developments, such as swelling, inflammation, and injury progression, to optimize patient treatment and recovery. The integration of these models into clinical workflows can enhance real-time decision-making and facilitate personalized, proactive care.
