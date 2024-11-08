@@ -62,3 +62,11 @@ This project demonstrates the promising potential of deep learning models for au
 - __Implantability Scores__: Both YOLOv8 and DeepLabv3 showed the highest potential for deployment in wearable or implantable devices, making them suitable for continuous monitoring of patient health.
 
 These findings suggest that deep learning can be effectively used to track and monitor post-surgical developments, such as swelling, inflammation, and injury progression, to optimize patient treatment and recovery. The integration of these models into clinical workflows can enhance real-time decision-making and facilitate personalized, proactive care.
+
+
+## Future Improvements 
+
+- __Increased Dataset Diversity__: Expand the dataset to include more human spinal cord images from diverse patient populations to improve model generalization and robustness.
+Transfer Learning Enhancements: Implement domain adaptation techniques to better translate models trained on porcine data to human data, enhancing their performance in clinical applications.
+- __Improved Image Augmentation__: Use augmentation techniques, including deformation, reverberation, and signal-to-noise adjustments tailored for ultrasound imaging to increase model resilience to noise and artifacts.
+- __Integration with Clinical Tools__: Create a seamless interface that integrates the model’s outputs into clinical diagnostic tools or surgical guidance systems.
