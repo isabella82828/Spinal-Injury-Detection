@@ -19,7 +19,7 @@ After training, the models can be used for:
 - 🧩 **Semantic Segmentation**: Enables soft tissue segmentation within spinal cord ultrasound images to track anatomical changes.
 - 📈 **Continuous Monitoring**: Facilitates ongoing assessment of patient health trajectory post-surgery, providing clinicians with actionable insights.
   
-##Repository Structure
+## Repository Structure
 
 - **`DataScaling`**: Contains scripts to preprocess and scale ultrasound B-Mode Sagittal images for consistent input across models.
   
